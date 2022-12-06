@@ -1,6 +1,7 @@
 interface Response {
   id: string;
   response: string;
+  correct: boolean;
 }
 
 interface Question {
